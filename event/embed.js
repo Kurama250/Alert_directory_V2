@@ -21,8 +21,8 @@ function createEmbed(message, { ip, date, method, url, fullUrl, userAgent }, { a
     timestamp: new Date().toISOString(),
     fields: [
       { name: '-- Request --', value: `**IP : **${ip}\n**Date: **${date}\n**Method : **${method}\n**URL : **${url}\n**Full URL : **${fullUrl}\n**User-Agent : **${userAgent}` },
-      { name: '-- System --', value: `**OS : **${osInfo} ${osVersion}\n**Navigator : **${agent.family}` }, // Ajouter la version précise de l'OS
-      { name: '-- Info --', value: `**Hostname:** ${ipInfo.query}\n**IP Classes:** ${ipInfo.as}\n**Reverse DNS:** ${ipInfo.reverse}\n**Country:** ${ipInfo.country}\n**Capital:** ${ipInfo.capital}\n**State:** ${ipInfo.regionName}\n**City:** ${ipInfo.city}\n**Postal:** ${ipInfo.zip}\n**ISP / Organization:** ${ipInfo.isp}` }
+      { name: '-- System --', value: `**OS : **${osInfo} ${osVersion}\n**Navigator : **${agent.family}` },
+      { name: '-- Info --', value: `**IP:** ${ipInfo.query}\n**IP Classes:** ${ipInfo.as}\n**Reverse DNS:** ${ipInfo.reverse}\n**Country:** ${ipInfo.country}\n**Capital:** ${ipInfo.capital}\n**State:** ${ipInfo.regionName}\n**City:** ${ipInfo.city}\n**Postal:** ${ipInfo.zip}\n**ISP / Organization:** ${ipInfo.isp}` }
     ]
   };
 }
