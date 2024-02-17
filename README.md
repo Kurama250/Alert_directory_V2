@@ -9,6 +9,7 @@
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/nginx-v1.18.0-brightgreen">
   <img src="https://img.shields.io/npm/v/module-name">
   <img src="https://img.shields.io/npm/v/fs?label=fs">
   <img src="https://img.shields.io/npm/v/axios?label=axios">
