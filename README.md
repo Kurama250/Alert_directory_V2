@@ -68,4 +68,5 @@ pm2 start main.js
 
 ![alt text](https://github.com/Kurama250/Alert_directory_V2/blob/main/alert.png?raw=true)
 
+<h3 align="center">If you like this repository don't hesitate to give it a star ⭐ !</h3>
 <h1 align="center">Then it's the end you have started the bot have fun !</h1>
